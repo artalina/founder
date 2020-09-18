@@ -105,7 +105,6 @@ pycodestyle==2.5.0
 pycparser==2.19
 pyexcel==0.5.15
 pyexcel-ezodf==0.3.4
-pyexcel-io==0.5.20
 PyInstaller==4.0.dev0+a1f92c6a08
 pylint==2.4.4
 pyodbc==4.0.27
