@@ -110,6 +110,7 @@ pyrsistent==0.16.0
 pySSRS==1.0.0
 pytest==6.0.1
 python-dateutil==1.5
+python-dateutil==2.6.1
 python-decouple==3.3
 python-telegram-bot==12.2.0
 pytoml==0.1.21
