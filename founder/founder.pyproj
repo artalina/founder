@@ -44,6 +44,9 @@
     <Compile Include="founder\urls.py" />
     <Compile Include="founder\wsgi.py" />
     <Compile Include="settings.py" />
+    <Compile Include="wsgi.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="__init__.py" />
   </ItemGroup>
   <ItemGroup>
@@ -88,7 +91,6 @@
     <Content Include="app\templates\app\layout.html" />
     <Content Include="app\templates\app\login.html" />
     <Content Include="app\templates\app\loginpartial.html" />
-    <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
