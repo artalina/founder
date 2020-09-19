@@ -1,1 +1,1 @@
-web: gunicorn founder.wsgi --log-file -
+web: gunicorn founder.founder.wsgi --log-file -
