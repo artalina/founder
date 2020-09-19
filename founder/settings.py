@@ -56,14 +56,14 @@ MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
-ROOT_URLCONF = 'founder.urls'
+ROOT_URLCONF = 'founder.founder.urls'
 
 # Template configuration
 # https://docs.djangoproject.com/en/2.1/topics/templates/
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, "founder/templates")],
+        'DIRS': [os.path.join(BASE_DIR, "founder/app/templates")],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
