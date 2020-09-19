@@ -32,13 +32,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="app\forms.py" />
     <Compile Include="app\models.py" />
     <Compile Include="app\tests.py" />
-    <Compile Include="app\views.py" />
     <Compile Include="app\__init__.py" />
     <Compile Include="app\migrations\__init__.py" />
     <Compile Include="forms.py" />
+    <Compile Include="founder\forms.py" />
+    <Compile Include="founder\views.py" />
     <Compile Include="manage.py" />
     <Compile Include="founder\__init__.py" />
     <Compile Include="founder\settings.py" />
