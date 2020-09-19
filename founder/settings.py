@@ -33,7 +33,7 @@ ALLOWED_HOSTS = ['*']
 # Application references
 # https://docs.djangoproject.com/en/2.1/ref/settings/#std:setting-INSTALLED_APPS
 INSTALLED_APPS = [
-    #'app',
+    'founder.app',
     # Add your apps here to enable them
     'django.contrib.admin',
     'django.contrib.auth',
@@ -56,7 +56,7 @@ MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
-ROOT_URLCONF = 'founder.founder.urls'
+ROOT_URLCONF = 'founder.urls'
 
 # Template configuration
 # https://docs.djangoproject.com/en/2.1/topics/templates/
