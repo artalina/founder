@@ -56,7 +56,7 @@ MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
-ROOT_URLCONF = 'founder.urls'
+ROOT_URLCONF = 'founder.founder.urls'
 
 # Template configuration
 # https://docs.djangoproject.com/en/2.1/topics/templates/
