@@ -59,6 +59,12 @@
     <Folder Include="founder\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\about.html" />
+    <Content Include="app\contact.html" />
+    <Content Include="app\index.html" />
+    <Content Include="app\layout.html" />
+    <Content Include="app\login.html" />
+    <Content Include="app\loginpartial.html" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
     <Content Include="app\static\app\content\bootstrap.min.css" />
