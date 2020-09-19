@@ -57,6 +57,8 @@
     <Folder Include="app\templates\" />
     <Folder Include="app\templates\app\" />
     <Folder Include="founder\" />
+    <Folder Include="templates\" />
+    <Folder Include="templates\app\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\about.html" />
@@ -97,6 +99,12 @@
     <Content Include="requirements.txt" />
     <Content Include="runtime.txt" />
     <Content Include="Procfile" />
+    <Content Include="templates\app\about.html" />
+    <Content Include="templates\app\contact.html" />
+    <Content Include="templates\app\index.html" />
+    <Content Include="templates\app\layout.html" />
+    <Content Include="templates\app\login.html" />
+    <Content Include="templates\app\loginpartial.html" />
   </ItemGroup>
   <ItemGroup>
     <None Include="readme.html">
