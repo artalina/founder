@@ -48,8 +48,12 @@
     <Compile Include="models.py" />
     <Compile Include="settings.py" />
     <Compile Include="tests.py" />
+    <Compile Include="urls.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="views.py" />
     <Compile Include="wsgi.py" />
+    <Compile Include="__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\" />
