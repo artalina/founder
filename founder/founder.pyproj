@@ -43,6 +43,8 @@
     <Compile Include="founder\settings.py" />
     <Compile Include="founder\urls.py" />
     <Compile Include="founder\wsgi.py" />
+    <Compile Include="settings.py" />
+    <Compile Include="wsgi.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\" />
