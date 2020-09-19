@@ -38,13 +38,17 @@
     <Compile Include="app\views.py" />
     <Compile Include="app\__init__.py" />
     <Compile Include="app\migrations\__init__.py" />
+    <Compile Include="forms.py" />
     <Compile Include="manage.py" />
     <Compile Include="founder\__init__.py" />
     <Compile Include="founder\settings.py" />
     <Compile Include="founder\urls.py" />
     <Compile Include="founder\wsgi.py" />
     <Compile Include="migrations\__init__.py" />
+    <Compile Include="models.py" />
     <Compile Include="settings.py" />
+    <Compile Include="tests.py" />
+    <Compile Include="views.py" />
     <Compile Include="wsgi.py" />
   </ItemGroup>
   <ItemGroup>
