@@ -120,6 +120,11 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['static']))
 
+# Simplified static file serving.
+# https://warehouse.python.org/project/whitenoise/
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
 # Activate Django-Heroku.
 django_heroku.settings(locals())
 
