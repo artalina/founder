@@ -60,10 +60,12 @@
     <Folder Include="app\static\app\scripts\" />
     <Folder Include="app\templates\" />
     <Folder Include="app\templates\app\" />
+    <Folder Include="app\templates\app\media\" />
     <Folder Include="founder\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\static\app\media\image.png" />
+    <Content Include="app\templates\app\media\image.png" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
     <Content Include="app\static\app\content\bootstrap.min.css" />
